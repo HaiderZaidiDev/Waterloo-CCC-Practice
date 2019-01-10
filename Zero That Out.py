@@ -1,7 +1,11 @@
 # CCC '15 S1
 numsList = []
 
-for i in range(0, int(input()), 1):
+import sys
+data = sys.stdin.readline
+
+
+for i in range(0, int(data()), 1):
     nums = int(input())
     
     if nums > 0:
